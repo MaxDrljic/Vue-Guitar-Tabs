@@ -10,12 +10,15 @@
   "author": "Max Drljić",
   "license": "MIT",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "joi": "^13.1.2",
+    "jsonwebtoken": "^8.2.1",
     "morgan": "^1.9.0",
-    "sequelize": "^4.37.6",
+    "sequelize": "^4.8.0",
     "sqlite3": "^3.1.8"
   },
   "devDependencies": {
