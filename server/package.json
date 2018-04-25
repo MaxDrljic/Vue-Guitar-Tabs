@@ -5,7 +5,8 @@
   "main": "./src/app.js",
   "scripts": {
     "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
-    "lint": "./node_modules/.bin/eslint **/*.js"
+    "lint": "./node_modules/.bin/eslint **/*.js",
+    "seed": "node ./seed"
   },
   "author": "Max Drljić",
   "license": "MIT",
