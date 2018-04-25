@@ -2,7 +2,7 @@
   <v-layout justify-center>
     <v-flex xs6>
       <songs-search-panel />
-      <songs-panel />
+      <songs-panel class="mt-2" />
     </v-flex>
   </v-layout>
 </template>
@@ -20,11 +20,6 @@ export default {
   data () {
     return {
       songs: null
-    }
-  },
-  methods: {
-    navigateTo (route) {
-      this.$router.push(route)
     }
   },
   async mounted () {
